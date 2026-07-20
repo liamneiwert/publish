@@ -1,0 +1,321 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+.logo{
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.preview{
+  border:3px solid white;
+  border-radius: 2px;
+  box-shadow: 0px 10px 20px 0px rgba(0,0,0,.8);
+  background-color: #d9d2e9;
+}
+
+
+h1{
+  font-size: 3em;
+}
+
+body{
+  font-family: "Questrial", sans-serif;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+header{
+	text-align: center;
+  padding: 4px;
+  background-color: #d9d2e9;
+}
+
+header h1{
+  line-height: 60%;
+  margin 0;
+  color: white;
+}
+
+/*navigation*/
+nav{
+  text-align: center;
+  background-color: #351c75;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0%;
+  margin: 8px;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #351c75;
+}
+a:visited{
+  color: #351c75;
+}
+a:hover{
+  color: YELLOW;
+}
+a:active{
+  color: blue;
+}
+
+.skills-row i{
+  font-size: 4em;
+  color: #dbae4c;
+}
+
+.skills-row{
+  text-align: center;
+  color: #dbae4c;
+}
+
+.contact-form-markup h4{
+  color: #9e91c0;
+}
+
+.contact-form-markup{
+  text-align: center;
+}
+
+.contact-form-markup h3{
+  color: #dbae4c;
+  font-style: italic;
+}
+
+.contact-form-markup i{
+  font-size: 6em;
+  color: #9e91c0;
+  padding-bottom: 8px;
+}
+
+.home-hero{
+  background-image: url(images/krzysiek-mechanics.jpg);
+  height: 400px;
+  background-size: cover;
+  border-bottom: 3px solid white;
+}
+
+.home-hero h1{
+  color: whitesmoke;
+  text-shadow: 2px 5px 2px black;
+  text-align: center;
+  padding-top: 152px;
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+.myButton {
+  color: white;
+  background-color: #351c75;
+  font-family: "Questrial", sans-serif;
+  margin: 20px auto;
+  border-radius: 5px;
+
+}
+
+.photo-icon{
+  font-size: 2em;
+  text-align: center;
+}
+
+
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: WHITE;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: YELLOW;
+}
+nav a:active{
+  color: white;
+}
+
+/*main */
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+footer {
+  padding-top: 5px;
+  border-top: white 3px solid;
+  text-align: center;
+  background-color: #d9d2e9;
+  color: #351c75;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+
+.footer-bottom{
+  background-color: black;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.float-left {
+  float: left;
+  max-width: 40%;
+  height: auto;
+  border-radius: 2%;
+  border:2px solid white;
+  box-shadow: 4px 4px 50px rgba(0, 0, 0, .4);
+  margin: 30px 30px 30px 0;
+}
+
+.float-right {
+  float: right;
+  max-width: 40%;
+  height: auto;
+  border-radius: 2%;
+  border:2px solid white;
+  box-shadow: 4px 4px 50px rgba(255, 255, 255, .4);
+  margin: 30px;
+}
+
+.default-markup {
+  max-width: 90%;
+  height: auto;
+  border-radius: 2%;
+  border:2px solid white;
+  box-shadow: 4px 4px 50px rgba(255, 255, 255, .4);
+  margin: 30px;
+}
+
+h2{
+  border-bottom: 2px solid #9e91c0;
+  display: flex;
+  font-size: 2em;
+  font-weight: 100;
+  color: #9e91c0;
+}
+
+/*
+ul li{
+  margin-bottom: 20px;
+}
+*/
+footer ul{
+  list-style-type: none;
+}
+
+.slogan{
+  width: 100%;
+  border: 2px solid white;
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 100%;
+  color: #000080;
+  font-style: italic;
+  background-color: white;
+  text-align: center;
+  box-shadow: 4px 4px 50px rgba(255, 255, 255, .4);
+}
+
+
+/*css without media query. all sizes unless otherwise noted */
+@media only screen and (max-width: 1024px){
+  h1{
+    font-size: 2.5em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.3em;
+  }
+  main{
+    width: 90%;
+  }
+}
+
+/*The CSS will work ONLY IF the screen size is less than 768px (smartphones only) */
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.3em;
+  }
+  .home-hero{
+    height: 125px;
+  }
+  .home-hero h1{
+    height: 125px;
+    font-size: 1.5em;
+    padding-top: 45px;
+  }
+  .float-left,
+  .float-right{
+    display: none;
+  }
+  .text-box{
+    float: none;
+    max-width: 100%;
+    display: block;
+  }
+  .slogan{
+    max-width: 125px;
+    font-size: .8em;
+  }
+  nav ul{
+    padding: 0;
+    margin: 0;
+  }
+  nav li{
+    display: block;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-bottom: 2px white;
+  }
+  main{
+    width: 90%;
+  }
+}
